@@ -74,7 +74,6 @@ pokemon.select{|pokemon| pokemon[:base_experience] >40}
 # How would you return an array of all of the pokemon's names?
 pokemon.map{|pokemon| pokemon[:name]}
 # How would you determine whether or not the pokemon array contained any pokemon with a weight greater than 60?
-
 #  whatever method you use should return true if there are any such pokemon, false if not.
 pokemon.any?{|pokemon| pokemon[:weight] > 60}
 binding.pry
